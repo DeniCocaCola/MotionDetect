@@ -26,7 +26,7 @@ else:
     print("Error")
     exit
 
-video = cv2.VideoCapture(videoSrc) #"C:\\Users\\West\\Videos\\shock.mp4"
+video = cv2.VideoCapture(videoSrc) 
 
 while True:
     check, frame = video.read()
